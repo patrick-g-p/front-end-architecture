@@ -11,14 +11,15 @@ The page specific elements of a give URL
 **Thesis: Each `page` in a `MPA` is an `application`**
 
 ## Housing Structure
-```js
-Shared Application Dependencies___
-|    Applications_______          |
-|    |    App(Page)    |          |
-|    |    App(Page)    |          |
-|    |    App(Page)
-|    |    App(Page)
-|    |__________________
-|
-|_________________________________
-```
+
+IMG
+
+### Shared Application Dependencies
+These can be organizes into directories for SCSS, JS, Fragments... anything we homebrew that is used across apps/pages
+
+### App
+This is a directory that should be name of the URI (if we are visiting `/users.html` the directory/app name should be `users`.
+
+## App Structure
+
+IMG
