@@ -58,3 +58,6 @@ This file should contain only component-specific `.scss` files and styles.  The 
 Utilities within the component directory should be sparse.  They represent JS that is easier to comprehend when placed in its own module.
 
 ## Root Files Structure
+
+## Dependency Graph
+
