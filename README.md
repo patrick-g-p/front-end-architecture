@@ -43,7 +43,7 @@ This is the root level SCSS file that should import page-level CSS dependencies 
 
 ## Component Directory Structure
 
-![](https://github.com/tamb/front-end-architecture/blob/master/MPA%20Level%202.jpg)
+![](https://github.com/tamb/front-end-architecture/blob/master/MPA%20-%20Level%202.jpg)
 
 
 ## Root Files Structure
