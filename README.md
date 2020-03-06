@@ -60,4 +60,5 @@ Utilities within the component directory should be sparse.  They represent JS th
 ## Root Files Structure
 
 ## Dependency Graph
+![](https://github.com/tamb/front-end-architecture/blob/master/MPA%20-%20dependency%20graph.jpg)
 
