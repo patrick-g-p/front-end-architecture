@@ -1,4 +1,4 @@
-# MPA front-end-architecture
+# MPA Front-end Architecture
 
 ## terms
 ### page
