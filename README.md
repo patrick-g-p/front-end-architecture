@@ -23,4 +23,4 @@ This is a directory that should be name of the URI (if we are visiting `/users.h
 
 ## App Structure
 
-IMG
+![](https://github.com/tamb/front-end-architecture/blob/master/MPA%20-%20Level%201.jpg)
