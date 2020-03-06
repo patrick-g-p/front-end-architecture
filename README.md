@@ -62,3 +62,16 @@ Utilities within the component directory should be sparse.  They represent JS th
 ## Dependency Graph
 ![](https://github.com/tamb/front-end-architecture/blob/master/MPA%20-%20dependency%20graph.jpg)
 
+### 3rd party / node_module dependencies 
+These are whatever libraries or frameworks we do not maintain within the application/page.  Let's call them `Third Party Dependencies`
+
+### A Component
+There can be countless amounts of these.  They represent reusable or syntactically identifiable sections of the page/application.  A component can contain `3rd party dependencies`, `Homebrew Utilities`, etc.  They can also spawn their own `Homebrew Component Utilities`.
+
+### Page Styles
+Pretty simply, they are any style dependencies and definitions that the page needs.  Import 3rd party CSS or Homebrew CSS styles here.  All styles should be specifically page-level and should not be considered necessary for component resuse.
+
+### Homebrew Utilities
+These are shared throughout pages or within multiple page-level sections.  They represent any small modules that are for keeping our codebase DRY.  
+
+A utility can be written expressly for the page.  Such a utility would live within the page directory.
