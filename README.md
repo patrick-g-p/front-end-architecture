@@ -54,4 +54,7 @@ This file should contain only component-specific `.js` files and programs.  The 
 ### Component.scss
 This file should contain only component-specific `.scss` files and styles.  The file name should match the component name.  So `UserProfile` should yield `UserProfile.scss`. 
 
+### Utilities
+Utilities within the component directory should be sparse.  They represent JS that is easier to comprehend when placed in its own module.
+
 ## Root Files Structure
