@@ -24,3 +24,23 @@ This is a directory that should be name of the URI (if we are visiting `/users.h
 ## App Structure
 
 ![](https://github.com/tamb/front-end-architecture/blob/master/MPA%20-%20Level%201.jpg)
+
+### Component Directories
+ You should have 1 Component Directory per component.  If the component is named `UserProfile` the directory should be named `UserProfile`. 
+
+### Utility Directories
+This represents various directories for certain services or utilities the application needs.
+If you have a `store` for state management you should create a `store` directory and house all relevant files within that directory.  
+
+### app.html
+This is the `.html` file that the url will render.  Consider this the home document for this app.
+
+### app.js
+This is the entry level JavaScript file that webpack will begin gather dependencies from.  It will output as many files as directed.  This file should import page-level JS dependencies (dependencies that are not component-specific).  This file should also import `app.scss` for processing via webpack.
+
+### app.scss
+This is the root level SCSS file that should import page-level CSS dependencies (those are dependencies that are not component-specific)
+
+## Component Directory Structure
+
+## Root Files Structure
