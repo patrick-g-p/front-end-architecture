@@ -45,5 +45,13 @@ This is the root level SCSS file that should import page-level CSS dependencies 
 
 ![](https://github.com/tamb/front-end-architecture/blob/master/MPA%20-%20Level%202.jpg)
 
+### Component.html
+This file should contain only component-specific `.css` and `.js` files.  The file name should match the component name.  So `UserProfile` should yield `UserProfile.html`. 
+
+### Component.js
+This file should contain only component-specific `.js` files and programs.  The file name should match the component name.  So `UserProfile` should yield `UserProfile.js`. This file shoul import the component's `.scss` file for processing.
+
+### Component.scss
+This file should contain only component-specific `.scss` files and styles.  The file name should match the component name.  So `UserProfile` should yield `UserProfile.scss`. 
 
 ## Root Files Structure
