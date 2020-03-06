@@ -12,7 +12,8 @@ The page specific elements of a give URL
 
 ## Housing Structure
 
-IMG
+![alt text](https://github.com/tamb/front-end-architecture/blob/master/MPA%20-%20Level%200.jpg)
+
 
 ### Shared Application Dependencies
 These can be organizes into directories for SCSS, JS, Fragments... anything we homebrew that is used across apps/pages
