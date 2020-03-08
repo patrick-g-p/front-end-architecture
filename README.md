@@ -1,5 +1,10 @@
 # MPA Front-end Architecture
 
+* [Housing Structure](#housing-structure)
+* [App Structure](#app-structure)
+* [Component Directory Structure](#component-directory-structure)
+* [Dependency Graph](#dependency-graph)
+
 ## terms
 ### page
 The view returned given a URL
