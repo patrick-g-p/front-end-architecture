@@ -57,8 +57,6 @@ This file should contain only component-specific `.scss` files and styles.  The 
 ### Utilities
 Utilities within the component directory should be sparse.  They represent JS that is easier to comprehend when placed in its own module.
 
-## Root Files Structure
-
 ## Dependency Graph
 ![](https://github.com/tamb/front-end-architecture/blob/master/MPA%20-%20dependency%20graph.jpg)
 
