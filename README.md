@@ -7,12 +7,16 @@
 * [Dependency Graph](#dependency-graph)
 
 ## terms
-### page
-The view returned given a URL
-### app shell
-The consistent views and wrapping elements between pages
-### content
-The page specific elements of a give URL
+<dl>
+  <dt>page</dt>
+  <dd>The view returned given a URL</dd>
+ 
+  <dt>app shell</dt>
+  <dd>The consistent views and wrapping elements between pages</dd>
+ 
+  <dt>content</dt>
+  <dd>The page specific elements of a give URL</dd>
+</dl>
 
 **Thesis: Each `page` in a `MPA` is an `application`**
 
