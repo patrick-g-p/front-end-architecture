@@ -34,6 +34,11 @@ This is a directory that should be name of the URI (if we are visiting `/users.h
 -------
 ## Shared Dependencies
 
+### component
+### js
+### css
+### imgs
+### etc
 -------
 ## Views
 
