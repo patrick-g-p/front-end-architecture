@@ -1,6 +1,7 @@
 # MPA Front-end Architecture
 
 * [Root MPA](#root-mpa)
+* [Shared Dependencies](#shared-dependencies)
 * [Views](#views)
 * [Component Directory Structure](#component-directory-structure)
 * [Dependency Graph](#dependency-graph)
@@ -15,6 +16,7 @@ The page specific elements of a give URL
 
 **Thesis: Each `page` in a `MPA` is an `application`**
 
+-------
 ## Root MPA
 
 ![alt text](https://github.com/tamb/front-end-architecture/blob/master/MPA%20-%20Level%200.jpg)
@@ -29,6 +31,10 @@ external dependencies from npm
 ### Views
 This is a directory that should be name of the URI (if we are visiting `/users.html` the directory/app name should be `users`.
 
+-------
+## Shared Dependencies
+
+-------
 ## Views
 
 ![](https://github.com/tamb/front-end-architecture/blob/master/MPA%20-%20Level%201.jpg)
@@ -49,6 +55,7 @@ This is the entry level JavaScript file that webpack will begin gather dependenc
 ### app.scss
 This is the root level SCSS file that should import page-level CSS dependencies (those are dependencies that are not component-specific)
 
+------
 ## Component Directory Structure
 
 ![](https://github.com/tamb/front-end-architecture/blob/master/MPA%20-%20Level%202.jpg)
@@ -65,6 +72,7 @@ This file should contain only component-specific `.scss` files and styles.  The 
 ### Utilities
 Utilities within the component directory should be sparse.  They represent JS that is easier to comprehend when placed in its own module.
 
+------
 ## Dependency Graph
 ![](https://github.com/tamb/front-end-architecture/blob/master/MPA%20-%20dependency%20graph.jpg)
 
