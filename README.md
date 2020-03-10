@@ -33,7 +33,7 @@
   <dt>node_modules</dt>
   <dd>external dependencies from npm</dd>
  
-  <dt>Views</dt>
+  <dt>views</dt>
   <dd>This is a directory that should be name of the URI (if we are visiting `/users.html` the directory/app name should be `users`.</dd>
 </dl>
 
