@@ -34,7 +34,7 @@
   <dd>external dependencies from npm</dd>
  
   <dt>views</dt>
-  <dd>This is a directory that should be name of the URI (if we are visiting `/users.html` the directory/app name should be `users`.
+  <dd>This is a directory that should be name of the URI (if we are visiting <code>/users.html</code> the directory/app name should be `users`.
   </dd>
 </dl>
 
