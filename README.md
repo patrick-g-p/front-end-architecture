@@ -28,23 +28,51 @@
 <dl>
   <dt>Shared Dependencies</dt>
   <dd>These can be organizes into directories for SCSS, JS, Fragments, images... anything we homebrew that is used across apps/pages
-</dd>
+  </dd>
  
   <dt>node_modules</dt>
   <dd>external dependencies from npm</dd>
  
   <dt>views</dt>
-  <dd>This is a directory that should be name of the URI (if we are visiting `/users.html` the directory/app name should be `users`.</dd>
+  <dd>This is a directory that should be name of the URI (if we are visiting `/users.html` the directory/app name should be `users`.
+  </dd>
 </dl>
 
 -------
 ## Shared Dependencies
 
-### component
-### js
-### css
-### imgs
-### etc
+<dl>
+  <dt>
+    component
+  </dt>
+  <dd>
+  </dd>
+  
+  <dt>
+    js
+  </dt>
+  <dd>
+  </dd>
+  
+  <dt>
+    css
+  </dt>
+  <dd>
+  </dd>
+  
+  <dt>
+    imgs
+  </dt>
+  <dd>
+  </dd>
+  
+  <dt>
+    etc
+  </dt>
+  <dd>
+  </dd>
+</dl>
+
 -------
 ## Views
 
