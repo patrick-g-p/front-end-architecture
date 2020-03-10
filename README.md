@@ -1,7 +1,7 @@
 # MPA Front-end Architecture
 
 * [Root MPA](#root-mpa)
-* [App Structure](#app-structure)
+* [Views](#views)
 * [Component Directory Structure](#component-directory-structure)
 * [Dependency Graph](#dependency-graph)
 
@@ -29,7 +29,7 @@ external dependencies from npm
 ### Views
 This is a directory that should be name of the URI (if we are visiting `/users.html` the directory/app name should be `users`.
 
-## App Structure
+## Views
 
 ![](https://github.com/tamb/front-end-architecture/blob/master/MPA%20-%20Level%201.jpg)
 
