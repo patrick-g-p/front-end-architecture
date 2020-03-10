@@ -31,10 +31,10 @@ userEventsEnum = {
 
 ```
 
-### details object
-You can pass a `details` object to your custom events to pass along information.
+### detail object
+You can pass a `detail` object to your custom events to pass along information.
 
-Try to define your details object with generic fields of data.  
+Try to define your `detail` object with generic fields of data.  
 You can then use object creators and 
 object extension to inherit type of data.
 
@@ -42,4 +42,4 @@ object extension to inherit type of data.
 Dispatch the event from wherever you please.  
 I recommend letting the event bubble to the top.  
 You can always pass the `target` 
-in as a value in the `details` object.
+in as a value in the `detail` object.
