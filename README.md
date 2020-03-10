@@ -25,15 +25,17 @@
 
 ![alt text](https://github.com/tamb/front-end-architecture/blob/master/MPA%20-%20Level%200.jpg)
 
-
-### Shared Dependencies
-These can be organizes into directories for SCSS, JS, Fragments, images... anything we homebrew that is used across apps/pages
-
-### node_modules
-external dependencies from npm
-
-### Views
-This is a directory that should be name of the URI (if we are visiting `/users.html` the directory/app name should be `users`.
+<dl>
+  <dt>Shared Dependencies</dt>
+  <dd>These can be organizes into directories for SCSS, JS, Fragments, images... anything we homebrew that is used across apps/pages
+</dd>
+ 
+  <dt>node_modules</dt>
+  <dd>external dependencies from npm</dd>
+ 
+  <dt>Views</dt>
+  <dd>This is a directory that should be name of the URI (if we are visiting `/users.html` the directory/app name should be `users`.</dd>
+</dl>
 
 -------
 ## Shared Dependencies
