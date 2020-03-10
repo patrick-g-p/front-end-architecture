@@ -21,7 +21,10 @@ The page specific elements of a give URL
 
 
 ### Shared Dependencies
-These can be organizes into directories for SCSS, JS, Fragments... anything we homebrew that is used across apps/pages
+These can be organizes into directories for SCSS, JS, Fragments, images... anything we homebrew that is used across apps/pages
+
+### node_modules
+external dependencies from npm
 
 ### Views
 This is a directory that should be name of the URI (if we are visiting `/users.html` the directory/app name should be `users`.
