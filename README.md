@@ -1,6 +1,6 @@
 # MPA Front-end Architecture
 
-* [Housing Structure](#housing-structure)
+* [Root MPA](#root-mpa)
 * [App Structure](#app-structure)
 * [Component Directory Structure](#component-directory-structure)
 * [Dependency Graph](#dependency-graph)
@@ -15,15 +15,15 @@ The page specific elements of a give URL
 
 **Thesis: Each `page` in a `MPA` is an `application`**
 
-## Housing Structure
+## Root MPA
 
 ![alt text](https://github.com/tamb/front-end-architecture/blob/master/MPA%20-%20Level%200.jpg)
 
 
-### Shared Application Dependencies
+### Shared Dependencies
 These can be organizes into directories for SCSS, JS, Fragments... anything we homebrew that is used across apps/pages
 
-### App
+### Views
 This is a directory that should be name of the URI (if we are visiting `/users.html` the directory/app name should be `users`.
 
 ## App Structure
