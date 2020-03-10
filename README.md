@@ -121,17 +121,35 @@ If you have a <code>store</code> for state management you should create a <code>
 
 ![](https://github.com/tamb/front-end-architecture/blob/master/MPA%20-%20Level%202.jpg)
 
-### Component.html
-This file should contain only component-specific `.css` and `.js` files.  The file name should match the component name.  So `UserProfile` should yield `UserProfile.html`. 
-
-### Component.js
-This file should contain only component-specific `.js` files and programs.  The file name should match the component name.  So `UserProfile` should yield `UserProfile.js`. This file shoul import the component's `.scss` file for processing.
-
-### Component.scss
-This file should contain only component-specific `.scss` files and styles.  The file name should match the component name.  So `UserProfile` should yield `UserProfile.scss`. 
-
-### Utilities
-Utilities within the component directory should be sparse.  They represent JS that is easier to comprehend when placed in its own module.
+<dl>
+  <dt>
+    Component.html
+  </dt>
+  <dd>
+    This file should contain only component-specific `.css` and `.js` files.  The file name should match the component name.  So `UserProfile` should yield `UserProfile.html`. 
+  </dd>
+  
+  <dt>
+    Component.js
+  </dt>
+  <dd>
+  This file should contain only component-specific `.js` files and programs.  The file name should match the component name.  So `UserProfile` should yield `UserProfile.js`. This file shoul import the component's `.scss` file for processing.
+  </dd>
+  
+  <dt>
+    Component.scss
+  </dt>
+  <dd>
+  This file should contain only component-specific `.scss` files and styles.  The file name should match the component name.  So `UserProfile` should yield `UserProfile.scss`. 
+  </dd>
+  
+  <dt>
+  Utilities
+  </dt>
+  <dd>
+      Utilities within the component directory should be sparse.  They represent JS that is easier to comprehend when placed in its own module.
+  </dd>
+</dl>
 
 ------
 ## Dependency Graph
