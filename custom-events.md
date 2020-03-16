@@ -20,13 +20,13 @@ Note the *kebab-case* for these event names.  It helps visually distinguish them
 You can and should prefix your events with a namespace to scope it to a component, page, section, or action type:
 ```js
 counterEventsEnum = {
-  INCREMENT: 'counter.increment',
-  DECREMENT: 'counter.decrement',
+  INCREMENT: 'counter-increment',
+  DECREMENT: 'counter-decrement',
 };
 
 userEventsEnum = {
- LOGIN: 'user.login',
- LOGOUT: 'user.logout'
+ LOGIN: 'user-login',
+ LOGOUT: 'user-logout'
 };
 
 ```
