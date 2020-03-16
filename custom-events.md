@@ -45,6 +45,13 @@ I recommend letting the event bubble to the top.
 You can always pass the `target` 
 in as a value in the `detail` object.
 
+#### dispatching from target element
+```js
+
+myTargetElement.dispatchEvent(counterEventsEnum.INCREMENT);
+
+```
+
 #### dispatching from document/window
 ```js
 
