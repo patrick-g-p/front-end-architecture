@@ -44,3 +44,17 @@ Dispatch the event from wherever you please.
 I recommend letting the event bubble to the top.  
 You can always pass the `target` 
 in as a value in the `detail` object.
+
+#### dispatching from document/window
+```js
+
+window.dispatchEvent(counterEventsEnum.INCREMENT, {
+  detail: {
+    target: // target element you want,
+    component: //you could potentially pass 'this' 
+  }
+});
+
+```
+
+
