@@ -8,11 +8,12 @@ Store your custom events in Enum Objects:
 
 ```js
 const customEventsEnum = {
-  USER_LOGIN: 'user-login'
+  LOGIN: 'login',
+  scrollup: 'scrollup'
 };
 
 // reference
-customEventsEnum.USER_LOGIN // this will enable autocomplete
+customEventsEnum.LOGIN // this will enable autocomplete
 ```
 Note the *kebab-case* for these event names.  It helps visually distinguish them from DOM events.
 
