@@ -15,22 +15,34 @@ const customEventsEnum = {
 // reference
 customEventsEnum.LOGIN // this will enable autocomplete
 ```
-Note the *kebab-case* for these event names.  It helps visually distinguish them from DOM events.
-
 ### namespacing events
 You can and should prefix your events with a namespace to scope it to a component, page, section, or action type:
 ```js
 counterEventsEnum = {
-  INCREMENT: 'counter-increment',
-  DECREMENT: 'counter-decrement',
+  INCREMENT: 'counter.increment',
+  DECREMENT: 'counter.decrement',
 };
 
 userEventsEnum = {
- LOGIN: 'user-login',
- LOGOUT: 'user-logout'
+ LOGIN: 'user.login',
+ LOGOUT: 'user.logout'
 };
 
 ```
+
+### namespacing further:
+If you want to namespace to a library or to your app preface the custom event like so:
+```js
+myapp:counter.increment
+```
+
+### multiple words
+In the case of a component named `PeopleCounter`
+The namespace would be `peoplecounter`  *without* kebabcase.
+
+So the a long-winded custom event may be:
+
+`mygreatapp:peoplecounter.finishcount`
 
 ### detail object
 You can pass a `detail` object to your custom events to pass along information.
