@@ -15,7 +15,6 @@
     <dt>
       Dummy
     </dt>
-    <dt></dt>
     <dd>
       objects are passed around but never actually used. Usually they are just
       used to fill parameter lists.
@@ -31,24 +30,27 @@
     <dt>
       Stubs
     </dt>
-    provide canned answers to calls made during the test, usually not responding
-    at all to anything outside what's programmed in for the test.
+    <dd>
+      provide canned answers to calls made during the test, usually not
+      responding at all to anything outside what's programmed in for the test.
+    </dd>
+    <dt>
+      Spies
+    </dt>
+    <dd>
+      are stubs that also record some information based on how they were called.
+      One form of this might be an email service that records how many messages
+      it was sent.
+    </dd>
+    <dt>
+      Mocks
+    </dt>
+    <dd>
+      are what we are talking about here: objects pre-programmed with
+      expectations which form a specification of the calls they are expected to
+      receive.
+    </dd>
   </dl>
-  <dt>
-    Spies
-  </dt>
-  <dd>
-    are stubs that also record some information based on how they were called.
-    One form of this might be an email service that records how many messages it
-    was sent.
-  </dd>
-  <dt>
-    Mocks
-  </dt>
-  <dd>
-    are what we are talking about here: objects pre-programmed with expectations
-    which form a specification of the calls they are expected to receive.
-  </dd>
 </section>
 
 ## Utils Within our project we have `js/utils.js`. It's likely that this could
