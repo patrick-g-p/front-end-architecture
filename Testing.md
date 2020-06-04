@@ -41,7 +41,6 @@ Let's break this down:
 
 - `toBe` is a matcher.  There are a bunch of matchers in Jest.  `toBe` is probably the most frequently used.
 
-
 ## Utils
 
 Within our project we have `js/utils.js`. It's likely that this
@@ -51,6 +50,8 @@ utils etc. _Each and every_ util needs a unit test. If you cannot
 reason about writing a unit tests for a util, then there is a chance the
 util is written incorrectly. Since all utils for now are in
 `utils.js` the test file is `utils.test.js`
+
+**note:** a "test suite" corresponds to a singular `.test` page.  
 
 ```js
 test('AddClass adds the given class', ()=> {
