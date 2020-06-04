@@ -53,18 +53,35 @@
   </dl>
 </section>
 <section>
-    <h2>Utils</h2>
-  <p>Within our project we have <code>js/utils.js</code>. It's likely that this could
-    be broken out into more files under a <strong>utils</strong> directory. This way we can group
-        math/string/currency utils etc. <i>Each and every</i> util needs a unit test. If you
-        cannot reason about writing a unit tests for a util, then there is a chance the util is written incorrectly. Since all utils for now are in <code>utils.js</code>, the test file is
-    <code>utils.test.js</code></p>
-</section> 
+  <h2>Utils</h2>
+  <p>
+    Within our project we have <code>js/utils.js</code>. It's likely that this
+    could be broken out into more files under a
+    <strong>utils</strong> directory. This way we can group math/string/currency
+    utils etc. <i>Each and every</i> util needs a unit test. If you cannot
+    reason about writing a unit tests for a util, then there is a chance the
+    util is written incorrectly. Since all utils for now are in
+    <code>utils.js</code>, the test file is <code>utils.test.js</code>
+  </p>
+  <p>
+      Utils should accept input and produce a certain output or mutation.  Therefore the unit tests written should be fairly straight forward.
+      <pre>
+          <code>
+              text('AddClass adds the given class', ()=> {
+                document.body.innerHTML = `<div id="myDiv"></div>`
+              });
+              const div = document.getElementById('myDiv');
+              addClass('cool-class', div);
+              expect(div.classList.contains('cool-class')).toBe(true);
+          </code>
+      </pre>
+  </p>
+</section>
 <section>
-    <h2>Services</h2>
-    <p></p>
-</section> 
+  <h2>Services</h2>
+  <p></p>
+</section>
 <section>
-    <h2>DOM Logic</h2>
-    <p></p>
-</section> 
+  <h2>DOM Logic</h2>
+  <p></p>
+</section>
