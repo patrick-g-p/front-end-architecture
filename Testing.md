@@ -2,7 +2,6 @@
 
 <section>
     <h2>First Some Terminology:</h2>
-
     <p>
         The following definition list is from
         <cite>
@@ -12,12 +11,10 @@
           by Martin Fowler
         </sup>
       </p>
-      
       <dl>
         <dt>
           Dummy
         </dt>
-      
         <dt></dt>
         <dd>
           objects are passed around but never actually used. Usually they are just
@@ -36,7 +33,6 @@
         </dt>
         provide canned answers to calls made during the test, usually not responding
         at all to anything outside what's programmed in for the test.
-      </dl>
       <dt>
         Spies
       </dt>
@@ -52,6 +48,7 @@
         are what we are talking about here: objects pre-programmed with expectations
         which form a specification of the calls they are expected to receive.
       </dd>
+    </dl>
 </section>
 
 
