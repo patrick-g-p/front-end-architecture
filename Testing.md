@@ -52,10 +52,20 @@
     </dd>
   </dl>
 </section>
-
-## Utils Within our project we have `js/utils.js`. It's likely that this could
-be broken out into more files under a `utils` directory. This way we can group
-math/string/currency utils etc. _Each and every_ util needs a unit test. If you
-cannot reason about writing a unit tests for a util, then the util is probably
-poorly written. Since all utils for now are in `utils.js`, the test file is
-`utils.test.js` ## Services ## DOM Logic
+<section>
+    <h2>Utils</h2>
+    <p>Within our project we have `js/utils.js`. It's likely that this could
+        be broken out into more files under a `utils` directory. This way we can group
+        math/string/currency utils etc. _Each and every_ util needs a unit test. If you
+        cannot reason about writing a unit tests for a util, then the util is probably
+        poorly written. Since all utils for now are in `utils.js`, the test file is
+        `utils.test.js`</p>
+</section> 
+<section>
+    <h2>Services</h2>
+    <p></p>
+</section> 
+<section>
+    <h2>DOM Logic</h2>
+    <p></p>
+</section> 
