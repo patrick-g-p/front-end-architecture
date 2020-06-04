@@ -39,7 +39,7 @@ Let's break this down:
 
 - `expect` is used to match its statement `2 + 2` to the expected output `4`;
 
-- `toBe` is a matcher.  There are a bunch of matchers in Jest.  `toBe` is probably the most frequently used.
+- `toBe` is a **matcher**.  There are a bunch of matchers in Jest.  `toBe` is probably the most frequently used.
 
 ## Utils
 
