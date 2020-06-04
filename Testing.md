@@ -17,6 +17,31 @@ The following definition list is from https://martinfowler.com/articles/mocksAre
 
 - **Mocks** are what we are talking about here: objects pre-programmed with expectations which form a specification of the calls they are expected to receive.
 
+## Anatomy of a Test
+```js
+describe("Tests for Math Suite", ()=> {
+  
+  test("addition works", ()=> {
+    expect(2 + 2).toBe(4);
+  });
+  
+  test("division works, ()=> {
+    expect(12/4).toBe(3);
+  });
+  
+});
+```
+Let's break this down:
+
+`describe` is used to wrap a group of tests that are related in some way.  The first argument is a string describing the test group.  The second argument is the function execute the group of tests in.  In this case all these tests are for basic math operations.  `describe` *must* contain at least one test or the suite will fail.
+
+`test` is used to initiate a test.  The first argument describes the test.  The second argument is a function that fires the test.
+
+`expect` is used to match its statement `2 + 2` to the expected output `4`;
+
+`toBe` is a matcher.  There are a bunch of matchers in Jest.  `toBe` is probably the most frequently used.
+
+
 ## Utils
 
 Within our project we have `js/utils.js`. It's likely that this
