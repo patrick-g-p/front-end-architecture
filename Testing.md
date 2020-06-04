@@ -67,12 +67,12 @@
       Utils should accept input and produce a certain output or mutation.  Therefore the unit tests written should be fairly straight forward.
       <pre>
           <code>
-              text('AddClass adds the given class', ()=> {
-                document.body.innerHTML = `<div id="myDiv"></div>`
+              test('AddClass adds the given class', ()=> {
+                document.body.innerHTML = `<div id="myDiv"></div>`;
+                const div = document.getElementById('myDiv');
+                addClass('cool-class', div);
+                expect(div.classList.contains('cool-class')).toBe(true);
               });
-              const div = document.getElementById('myDiv');
-              addClass('cool-class', div);
-              expect(div.classList.contains('cool-class')).toBe(true);
           </code>
       </pre>
   </p>
