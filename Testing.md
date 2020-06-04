@@ -54,12 +54,12 @@
 </section>
 <section>
     <h2>Utils</h2>
-    <p>Within our project we have `js/utils.js`. It's likely that this could
-        be broken out into more files under a `utils` directory. This way we can group
-        math/string/currency utils etc. _Each and every_ util needs a unit test. If you
+  <p>Within our project we have <code>js/utils.js</code>. It's likely that this could
+    be broken out into more files under a <strong>utils</strong> directory. This way we can group
+        math/string/currency utils etc. <i>Each and every<i> util needs a unit test. If you
         cannot reason about writing a unit tests for a util, then the util is probably
-        poorly written. Since all utils for now are in `utils.js`, the test file is
-        `utils.test.js`</p>
+    poorly written. Since all utils for now are in <code>utils.js</code>, the test file is
+    <code>utils.test.js</code></p>
 </section> 
 <section>
     <h2>Services</h2>
