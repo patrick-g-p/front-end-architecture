@@ -2,6 +2,7 @@
 
 ## First Some Terminology:
 <p>
+  The following definition list is from 
   <cite>
     https://martinfowler.com/articles/mocksArentStubs.html
   </cite> 
@@ -10,16 +11,24 @@
   </sup>
 </p>
 
-<blockquote>
   <dl>
     <dt>
-    Dummy
+      Dummy
     <dt>
-    objects are passed around but never actually used. Usually they are just used to fill parameter lists.
     <dd>
+      objects are passed around but never actually used. Usually they are just used to fill parameter lists.
     </dd>
+    <dt>
+      Fake
+    </dt>
+    <dd>
+      objects actually have working implementations, but usually take some shortcut which makes them not suitable for production (an in memory database is a good example).
+    </dd>
+  <dt>
+    Stubs
+  </dt>
+  provide canned answers to calls made during the test, usually not responding at all to anything outside what's programmed in for the test.
   </dl>
-</blockquote>
 
 *Dummy objects are passed around but never actually used. Usually they are just used to fill parameter lists.
 Fake objects actually have working implementations, but usually take some shortcut which makes them not suitable for production (an in memory database is a good example).
